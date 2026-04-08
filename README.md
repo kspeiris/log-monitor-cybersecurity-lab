@@ -150,6 +150,32 @@ The dashboard shows:
 - last updated timestamp
 - threat-level distribution bar
 
+## Screenshots
+### VS Code Project View
+Shows the project files and working environment.
+
+![VS Code project view](lab1.png)
+
+### IDS Monitor Running
+Shows the terminal with the intrusion detection script running in real time.
+
+![IDS monitor running](lab2.png)
+
+### Attack Detection Output
+Shows failed login detection, brute-force alerts, and invalid user alerts.
+
+![Attack detection output](lab3.png)
+
+### Generated Logs And Reports
+Shows the saved runtime outputs such as `alerts.log` and `report.csv`.
+
+![Generated logs and reports](lab4.png)
+
+### Flask Dashboard
+Shows the dashboard with threat metrics, top IPs, and recent alerts.
+
+![Flask dashboard](lab5.png)
+
 ## Helper Commands
 The included `Makefile` provides:
 
