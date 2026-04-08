@@ -139,6 +139,36 @@ Severity levels:
 - `HIGH` for repeated brute-force attempts
 - `CRITICAL` for heavier repeated attack activity
 
+## Architecture
+```mermaid
+flowchart TD
+    A[sample_auth.log<br/>SSH-style log source] --> B[log_monitor.py<br/>Detection Engine]
+
+    B --> C[Regex Parsing]
+    C --> D[Failed Login Detection]
+    C --> E[Invalid User Detection]
+
+    D --> F[Attack Counter + Time Window]
+    F --> G[Severity Logic]
+    G --> H[Brute-Force Detection]
+
+    D --> I[report.csv<br/>Structured Event Records]
+    E --> I
+    H --> I
+
+    E --> J[alerts.log<br/>Alert Records]
+    H --> J
+
+    H --> K[Simulated Response Action]
+    K --> J
+
+    I --> L[app.py<br/>Flask Dashboard]
+    J --> L
+
+    L --> M[Browser Dashboard]
+    M --> N[Metrics, Top IPs, Alerts,<br/>Severity Badges, Threat Bar]
+```
+
 ## Dashboard Contents
 The dashboard shows:
 - total detected events

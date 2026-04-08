@@ -1,0 +1,33 @@
+[2026-04-08 17:53:30] [HIGH] Brute-force detected from 8.8.8.8
+[2026-04-08 17:53:30] [ACTION] Would block IP: 8.8.8.8
+[2026-04-08 17:53:30] [MEDIUM] Invalid user 'hacker' from 5.5.5.5
+[2026-04-08 17:59:05] [HIGH] Brute-force detected from 8.8.8.8
+[2026-04-08 17:59:05] [ACTION] Would block IP: 8.8.8.8
+[2026-04-08 17:59:05] [MEDIUM] Invalid user 'hacker' from 5.5.5.5
+[2026-04-08 17:59:05] [HIGH] Brute-force detected from 8.8.8.8
+[2026-04-08 17:59:05] [ACTION] Would block IP: 8.8.8.8
+[2026-04-08 17:59:05] [MEDIUM] Invalid user 'hacker' from 5.5.5.5
+[2026-04-08 17:59:05] [HIGH] Brute-force detected from 8.8.8.8
+[2026-04-08 17:59:05] [ACTION] Would block IP: 8.8.8.8
+[2026-04-08 17:59:05] [MEDIUM] Invalid user 'hacker' from 5.5.5.5
+[2026-04-08 17:59:51] [HIGH] Brute-force detected from 8.8.8.8
+[2026-04-08 17:59:51] [ACTION] Would block IP: 8.8.8.8
+[2026-04-08 17:59:51] [CRITICAL] Brute-force detected from 8.8.8.8
+[2026-04-08 17:59:51] [ACTION] Would block IP: 8.8.8.8
+[2026-04-08 17:59:51] [CRITICAL] Brute-force detected from 8.8.8.8
+[2026-04-08 17:59:51] [ACTION] Would block IP: 8.8.8.8
+[2026-04-08 17:59:51] [MEDIUM] Invalid user 'hacker' from 5.5.5.5
+[2026-04-08 17:59:51] [HIGH] Brute-force detected from 8.8.8.8
+[2026-04-08 17:59:51] [ACTION] Would block IP: 8.8.8.8
+[2026-04-08 17:59:51] [CRITICAL] Brute-force detected from 8.8.8.8
+[2026-04-08 17:59:51] [ACTION] Would block IP: 8.8.8.8
+[2026-04-08 17:59:51] [CRITICAL] Brute-force detected from 8.8.8.8
+[2026-04-08 17:59:51] [ACTION] Would block IP: 8.8.8.8
+[2026-04-08 17:59:51] [MEDIUM] Invalid user 'hacker' from 5.5.5.5
+[2026-04-08 17:59:51] [HIGH] Brute-force detected from 8.8.8.8
+[2026-04-08 17:59:51] [ACTION] Would block IP: 8.8.8.8
+[2026-04-08 17:59:51] [CRITICAL] Brute-force detected from 8.8.8.8
+[2026-04-08 17:59:51] [ACTION] Would block IP: 8.8.8.8
+[2026-04-08 17:59:51] [CRITICAL] Brute-force detected from 8.8.8.8
+[2026-04-08 17:59:51] [ACTION] Would block IP: 8.8.8.8
+[2026-04-08 17:59:51] [MEDIUM] Invalid user 'hacker' from 5.5.5.5
