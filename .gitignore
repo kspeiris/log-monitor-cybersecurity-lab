@@ -1,6 +1,0 @@
-.venv/
-__pycache__/
-*.pyc
-.codex
-alerts.log
-report.csv
